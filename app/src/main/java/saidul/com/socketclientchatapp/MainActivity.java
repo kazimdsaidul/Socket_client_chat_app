@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn;
     private EditText nickname;
     public static final String NICKNAME = "usernickname";
-    @Overrideprotected void onCreate(Bundle savedInstanceState) {
+    @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
